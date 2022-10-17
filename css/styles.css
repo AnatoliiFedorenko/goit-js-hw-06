@@ -265,6 +265,26 @@ nav {
 
 /* Task 6 */
 
+#validation-input {
+  border: 5px solid orange;
+  border-radius: 5px;
+  margin-left: 600px;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#validation-input:focus-visible {
+  outline: transparent;
+}
+
 /* Task 7 */
 
 .abracadabra {
