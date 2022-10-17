@@ -33,6 +33,11 @@ ul {
   /* outline: 2px solid tomato; */
 }
 
+.cat {
+  padding-top: 40px;
+  padding-left: 400px;
+}
+
 /* header */
 .header {
   border-bottom: 1px solid #ececec;
