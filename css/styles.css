@@ -229,6 +229,33 @@ nav {
   margin-right: 25px;
 }
 
+/* Task 5 */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 600px;
+}
+
+#name-input {
+  width: 150px;
+  padding: 50px;
+  margin-bottom: 25px;
+  border: orange solid 5px;
+  border-radius: 5px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#name-input:focus {
+  border: green solid 5px;
+}
+
+#name-input:focus-visible {
+  outline: transparent;
+}
+
 /* Task 8 */
 
 .login-form {
