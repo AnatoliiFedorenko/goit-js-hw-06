@@ -134,6 +134,11 @@ nav {
 
 /* Task 1 */
 
+#categories {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Task 2 */
 
 .ingredients__list {
