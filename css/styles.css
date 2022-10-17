@@ -165,6 +165,70 @@ nav {
   box-shadow: 0px 1px 25px 10px rgba(232, 112, 21, 0.75);
 }
 
+/* Task 4 */
+
+.reset__button {
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 73px;
+  min-width: 200px;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reset__button:hover,
+.reset__button:focus {
+  background-color: green;
+}
+
+.counter__button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 70px;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.counter__button:hover,
+.counter__button:focus {
+  background-color: green;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.counter__value {
+  font-size: 70px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 /* Task 8 */
 
 .login-form {
